@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatibe" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Book Store</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+        <link rel="stylesheet" href="styls.css" />
+      
+      
+    </head>
+    <body>
+      <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"> BOOK STORE </i></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Review</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="3.jpg" alt="">
+                <div class="content">
+                    <h3>L'Amour aux temps du choléra</h3>
+                    <span class="price">35D/-</span>
+                    <span class="Auteur">Gabriel Garcia Marquez</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="4.jpg" alt="">
+                <div class="content">
+                    <h3>LIBERE de la HONTE</h3>
+                    <span class="price">25D/-</span>
+                    <span class="Auteur">EDWARD T.WELCH</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="5.jpg" alt="">
+                <div class="content">
+                    <h3>La honte est un sentiment révolutionnaire</h3>
+                    <span class="price">30D/-</span>
+                    <span class="Auteur">Albin Michel</span>
+                </div>
+            </div>
+            <div class="total">Total: 90D/-</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+     <form action="" class="login-form">
+        <h3>Login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>Forget your password <a href="#">Click here</a></p>
+        <p>Don't have an account <a href="#">Create now</a></p>
+        <input type="submit" value="login now" class="btn">
+     </form>  
+    </header>  
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Amazing and <span>Interesting</span> Novels</h3>
+            <h4>The Greatest Books of All Time</h4>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+    <section class="features" id="features">
+        <h1 class="heading"> Our <span>Features</span></h1>
+
+        <div class="box-container">
+            <div class="box"> 
+            <img src="romantic.jpg" alt="" >
+            <h3>Romantic and Nostalgic</h3>
+            <p>The Best Romantic Stories Ever!</p>
+            <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="box"> 
+            <img src="delivery.jpg" alt="" >
+            <h3>Free delivery</h3>
+            <p>By your Articles From Your Home!</p>
+            <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="box"> 
+            <img src="payment.png" alt="" >
+            <h3>Easy payments</h3>
+            <p>The Easiest Way Of Paiment!</p>
+            <a href="#" class="btn">Read More</a>
+             </div>
+        </div>
+    </section>
+    <section class="articles" id="articles">
+        <h1 class="heading">Our<span> Articles</span></h1>
+        
+        <div class="swiper articles-ro">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="10.jpg" alt="">
+                    <h3>Les Douleurs Fantomes</h3>
+                    <div class="price"> 30D/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="7.jpg" alt="">
+                    <h3>Le miroir de Cassandre</h3>
+                    <div class="price"> 35D/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="8.jpg" alt="">
+                    <h3>Jamais Plus</h3>
+                    <div class="price"> 35D/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper articles-ro">
+            <div class="swiper-wrapper">
+            
+                <div class="swiper-slide box">
+                    <img src="44.jpg" alt="">
+                    <h3>STEPHEN KING THE SHINING</h3>
+                    <div class="price"> 35D/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="6.jpg" alt="">
+                    <h3>L'Homme qui voulait etre heureux</h3>
+                    <div class="price"> 35D/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="3.jpg" alt="">
+                    <h3>L'Amour au temps du Choléra</h3>
+                    <div class="price"> 35D/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="categories" id="categories">
+        <h1 class="heading">Article <span> Categories</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+              <img src="horror.jpg" alt="">
+              <h3>Horror</h3>
+              <p>upto 20% Off</p>
+              <a href="#" class="btn">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <img src="romanticc.jpg" alt="">
+                <h3>Romantic</h3>
+                <p>upto 15% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <img src="sciencefic.jpg" alt="">
+                <h3>Science Fiction</h3>
+                <p>upto 30% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>  
+            
+            <div class="box">
+                <img src="hitorical.jpg" alt="">
+                <h3>Historical</h3>
+                <p>upto 10% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div> 
+        </div>
+
+    </section>
+
+    <section class="review" id="review">
+        <h1 class="heading"> Customer's<span> Review</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="pic-1.png" alt="">
+                    <p>It's amazing to have your Book from Home!</p>
+                    <h3>Ghazi BOUGUILA</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="pic-2.png" alt="">
+                    <p>The best world of Books</p>
+                    <h3>Rania Tekaya</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="pic-3.png" alt="">
+                    <p>Interesting to have such articles</p>
+                    <h3>Raef Brahem</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="pic-4.png" alt="">
+                    <p>Amazing way of booking</p>
+                    <h3>Rafaella BenGhorbel</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="blogs" id="blogs">
+        <h1 class=""heading>Our <span> Blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="blo1.png" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>By User</a>
+                        <a href="#"><i class="fas fa-calendar"></i>1St November,2022</a>
+
+                    </div>
+                    <h3>Romantic and Nostalgic Novels</h3>
+                    <p>So Emotional!</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="blo2.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>By User</a>
+                        <a href="#"><i class="fas fa-calendar"></i>1St November,2022</a>
+
+                    </div>
+                    <h3>Horror and Fantasy Novels</h3>
+                    <p>Terrible!</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="blo3.png" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>By User</a>
+                        <a href="#"><i class="fas fa-calendar"></i>1St November,2022</a>
+
+                    </div>
+                    <h3>Historical Novels</h3>
+                    <p>Interesting!</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>BOOK STORE<i class="fas fa-shopping-basket"></i></h3>
+                <p>The Best World Of Books</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i>73 698 548</a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i>76 584 690</a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i>book.store@gmail.com</a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i>Tunis,Ariana,Ghazela</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Features</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Articles</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Categories</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Reviews</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>NewsLetter</h3>
+                <p>Subscribe for latest updates</p>
+                <input type="email" placeholder="Your Email" class="email">
+                <input type="submit" value="Subscribe" class="btn">
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
+
+
